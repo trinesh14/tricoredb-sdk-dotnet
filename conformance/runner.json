@@ -1,0 +1,8 @@
+{
+  "name": "dotnet",
+  "probe": ["dotnet", "--version"],
+  "build": [
+    ["dotnet", "build", "conformance/Runner/Runner.csproj", "-c", "Release", "-o", "conformance/out", "--nologo", "-v", "quiet"]
+  ],
+  "run": ["dotnet", "conformance/out/Runner.dll"]
+}

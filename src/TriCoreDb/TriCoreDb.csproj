@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>TriCoreDb</RootNamespace>
+    <AssemblyName>TriCoreDb</AssemblyName>
+
+    <IsPackable>true</IsPackable>
+    <PackageId>TriCoreDb</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>TriCoreDB Authors</Authors>
+    <Company>TriCoreDB</Company>
+    <Product>TriCoreDB .NET SDK</Product>
+    <Description>Native-protocol client for TriCoreDB: SQL with server-side parameters and session transactions, documents, vectors, graphs, cache and LLM context export over one connection. No runtime dependencies beyond the .NET base class library.</Description>
+    <Copyright>Copyright (c) TriCoreDB Authors</Copyright>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/trinesh14/tricoredb-sdk-dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/trinesh14/tricoredb-sdk-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>tricoredb;database;client;driver;sql;document;vector;graph;cache</PackageTags>
+    <PackageReleaseNotes>See CHANGELOG.md.</PackageReleaseNotes>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591;CS1573</NoWarn>
+
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+    <None Include="..\..\CHANGELOG.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="TriCoreDb.Tests" />
+  </ItemGroup>
+
+</Project>

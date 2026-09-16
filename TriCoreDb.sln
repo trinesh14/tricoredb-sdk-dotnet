@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B9701DED-4A8A-4CCF-96D1-0D49CDCEA57F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriCoreDb", "src\TriCoreDb\TriCoreDb.csproj", "{0845502A-ADBE-4B1C-B74E-71E57A886DCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D5897B0C-FD93-4750-96D0-04EB2059EAF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriCoreDb.Tests", "tests\TriCoreDb.Tests\TriCoreDb.Tests.csproj", "{C20A99AA-40B9-4745-95D8-229171ADBCBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{0FE6F28D-FBEE-472E-BE5B-FBF6FBB71F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriCoreDb.Examples", "examples\TriCoreDb.Examples\TriCoreDb.Examples.csproj", "{9B0D199B-E480-43C3-9D1C-14F78FC4E091}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "conformance", "conformance", "{C2FCA2E0-C0B3-46C1-9F8B-8E982F389D67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner", "conformance\Runner\Runner.csproj", "{07B24495-CF05-4819-8CE2-41302F816D2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0845502A-ADBE-4B1C-B74E-71E57A886DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0845502A-ADBE-4B1C-B74E-71E57A886DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0845502A-ADBE-4B1C-B74E-71E57A886DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0845502A-ADBE-4B1C-B74E-71E57A886DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20A99AA-40B9-4745-95D8-229171ADBCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20A99AA-40B9-4745-95D8-229171ADBCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20A99AA-40B9-4745-95D8-229171ADBCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20A99AA-40B9-4745-95D8-229171ADBCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0D199B-E480-43C3-9D1C-14F78FC4E091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0D199B-E480-43C3-9D1C-14F78FC4E091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0D199B-E480-43C3-9D1C-14F78FC4E091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0D199B-E480-43C3-9D1C-14F78FC4E091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B24495-CF05-4819-8CE2-41302F816D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B24495-CF05-4819-8CE2-41302F816D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B24495-CF05-4819-8CE2-41302F816D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B24495-CF05-4819-8CE2-41302F816D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0845502A-ADBE-4B1C-B74E-71E57A886DCB} = {B9701DED-4A8A-4CCF-96D1-0D49CDCEA57F}
+		{C20A99AA-40B9-4745-95D8-229171ADBCBD} = {D5897B0C-FD93-4750-96D0-04EB2059EAF0}
+		{9B0D199B-E480-43C3-9D1C-14F78FC4E091} = {0FE6F28D-FBEE-472E-BE5B-FBF6FBB71F79}
+		{07B24495-CF05-4819-8CE2-41302F816D2F} = {C2FCA2E0-C0B3-46C1-9F8B-8E982F389D67}
+	EndGlobalSection
+EndGlobal
